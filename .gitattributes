@@ -1,2 +1,3 @@
-*.json linguist-language=Dart
-*.yaml linguist-vendored
+*.dart linguist-language=Dart
+*.cpp linguist-language=C++
+
