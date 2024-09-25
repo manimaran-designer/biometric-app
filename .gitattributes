@@ -1,3 +1,8 @@
+# Set Dart as the primary language
 *.dart linguist-language=Dart
+
+# Ignore C++ files to prevent them from affecting language analysis
+*.cpp linguist-vendored
+*.h linguist-vendored
 
 
