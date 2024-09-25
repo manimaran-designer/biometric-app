@@ -1,8 +1,16 @@
 # Set Dart as the primary language
 *.dart linguist-language=Dart
 
+# Ignore CMake and other build files from language analysis
+CMakeLists.txt linguist-vendored
+*.cmake linguist-vendored
+
 # Ignore C++ files to prevent them from affecting language analysis
 *.cpp linguist-vendored
 *.h linguist-vendored
+
+*.json linguist-vendored
+*.yaml linguist-vendored
+*.md linguist-documentation
 
 
